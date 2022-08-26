@@ -608,6 +608,8 @@
   color: #1B1C21;
   margin: 0;
   padding: 0 16px; }
+.content-main .content-main__paragraph+.content-main__paragraph {
+  margin-top: 16px;}
   @media (min-width: 768px) {
     .content-main .content-main__paragraph {
       padding-left: 0px !important; } }
@@ -622,7 +624,7 @@
   display: none; }
   @media (min-width: 1024px) {
     .content-main .content-main__paragraph--view--desktop {
-      display: inline-block; } }
+      display: initial; } }
 
 .content-main .content-main__btn-link {
   margin: 16px 16px;
