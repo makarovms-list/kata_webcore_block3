@@ -431,6 +431,11 @@
     background-color: #FF3E79;
     margin-left: auto; }
 
+.sidebar-body  {
+  margin-top: 24px;}
+. left-sidebar__view {
+  display: flex;
+  flex-direction: column;}
 .sidebar-body .sidebar-body__menu-menu {
   list-style: none;
   padding: 0;
@@ -460,7 +465,8 @@
     background: #41F6D7; }
 
 .sidebar-bottom__padding-pos {
-  padding: 0px 24px 32px; }
+  padding: 0px 24px 32px;
+margin-top: auto;}
 
 .sidebar-bottom .sidebar-bottom__buttons {
   display: flex;
