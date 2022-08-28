@@ -384,6 +384,16 @@
   background-color: #F8F8F8;
   color: #1B1C21; }
 
+.page-body__body-pos--with-modal-sidebar {
+  background: #fffffff5;
+  mix-blend-mode: normal;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999; }
+
 .page-body__body-pos {
   padding: 0;
   margin: 0; }
